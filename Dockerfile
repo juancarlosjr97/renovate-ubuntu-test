@@ -1,3 +1,3 @@
-FROM docker.io/ubuntu:focal
+FROM ubuntu:yakkety
 
 CMD ["bash"]
