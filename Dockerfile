@@ -1,3 +1,3 @@
-FROM ubuntu:yakkety
+FROM ubuntu:jammy
 
 CMD ["bash"]
