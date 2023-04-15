@@ -1,12 +1,22 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:base"
+  ],
   "groupName": "all dependencies",
   "groupSlug": "renovate-dependencies",
   "packageRules": [
     {
       "groupName": "all dependencies",
       "groupSlug": "renovate-dependencies",
-      "matchPackagePatterns": ["*"]
+      "matchPackagePatterns": [
+        "*"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "docker.io/ubuntu"
+      ],
+      "versioning": "ubuntu"
     }
   ]
 }
