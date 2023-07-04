@@ -1,3 +1,3 @@
-FROM docker.io/ubuntu:22.04@sha256:b2175cd4cfdd5cdb1740b0e6ec6bbb4ea4892801c0ad5101a81f694152b6c559
+FROM docker.io/ubuntu:22.04@sha256:b060fffe8e1561c9c3e6dea6db487b900100fc26830b9ea2ec966c151ab4c020
 
 CMD ["bash"]
